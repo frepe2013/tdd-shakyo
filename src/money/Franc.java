@@ -9,7 +9,7 @@ public class Franc {
 		return new Franc(amount * multiplier);
 	}
 	public boolean equals(Object object) {
-		Franc dollar = (Franc)object;
-		return amount == dollar.amount;
+		Franc franc = (Franc)object;
+		return amount == franc.amount;
 	}
 }
