@@ -36,4 +36,8 @@ public class Money {
 		return new Money(amount, "CHF");
 	}
 
+	Money plus(Money addend) {
+		return new Money(amount + addend.amount, currency);
+	}
+
 }
